@@ -15,10 +15,6 @@ router.get('/admin', (req, res) => {
     res.sendFile(__path + '/views/NasaXone.Htm')
 })
 
-router.get('/tools', (req, res) => {
-    res.sendFile(__path + '/views/tools.html')
-})
-
 router.get('/api/about', (req, res) => {
     res.sendFile(__path + '/views/about.html')
 })
@@ -33,10 +29,6 @@ router.get('/api/cuaca-id', (req, res) => {
 
 router.get('/admin/admin', (req, res) => {
     res.sendFile(__path + '/views/NasaXone.Htm')
-})
-
-router.get('/tools/csrf-online', (req, res) => {
-    res.sendFile(__path + '/views/csrf.php')
 })
 
 router.get('/api/news', (req, res) => {
