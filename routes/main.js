@@ -23,6 +23,10 @@ router.get('/api/covid-id', (req, res) => {
     res.sendFile(__path + '/views/covid.html')
 })
 
+router.get('/api/cuaca-id', (req, res) => {
+    res.sendFile(__path + '/views/cuaca.html')
+})
+
 router.get('/admin/admin', (req, res) => {
     res.sendFile(__path + '/views/NasaXone.Htm')
 })
