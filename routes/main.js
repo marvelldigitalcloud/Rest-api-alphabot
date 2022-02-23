@@ -7,7 +7,7 @@ router.get('/', (req, res) => {
     res.sendFile(__path + '/views/home.html')
 })
 
-router.get('/api', (req, res) => {
+router.get('/index', (req, res) => {
     res.sendFile(__path + '/views/index.html')
 })
 
